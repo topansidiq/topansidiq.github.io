@@ -1,113 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home | Topan Deks</title>
-    <link rel="stylesheet" href="package/bt/css/bootstrap.min.css" type="text/css" media="all" />
-  </head>
-  <body>
-    <nav class="navbar bg-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <span class="topan">TOPAN</span>
-          <span class="deks">DEKS</span>
-        </a>
-        <div class="btn-group" role="group" aria-label="Basic outlined example">
-          <button type="button" class="btn btn-outline-primary">Left</button>
-          <button type="button" class="btn btn-outline-primary">Middle</button>
-          <button type="button" class="btn btn-outline-primary">Right</button>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <div class="dropdown">
-                  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Tutors
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="tutor-web.html">WEB</a></li>
-                    <li><a class="dropdown-item" href="#">HTML</a></li>
-                    <li><a class="dropdown-item" href="#">CSS</a></li>
-                    <li><a class="dropdown-item" href="#">JavaScript</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Storage
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Project</a></li>
-                  <li><a class="dropdown-item" href="#">Galery</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Profile</a></li>
-                </ul>
-              </li>
+<head>
+  <title>Home | Topan Area</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="package/bt/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="p-5 bg-primary text-white text-center">
+    <h1>Welcome to Topan Area</h1>
+    <p>Student at Politeknik Negeri Padang | Web Developer</p>
+  </div>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">WWW</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">HTTP</a>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tutorial
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">WEB</a></li>
+              <li><a class="dropdown-item" href="#">HTML</a></li>
+              <li><a class="dropdown-item" href="#">CSS</a></li>
+              <li><a class="dropdown-item" href="#">JavaScript</a></li>
+              <li><a class="dropdown-item" href="#">Mathematics</a></li>
             </ul>
-            <form class="d-flex mt-3" role="search">
-              <input class="form-control me-2" type="search" placeholder="Masukkan keyword..." aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
-        </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>About Writer</h2>
+        <img src="" alt="">
+        <div class="fakeimg">Fake Image</div>
+        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        <h3 class="mt-4">Some Links</h3>
+        <p>Lorem ipsum dolor sit ame.</p>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Topan Deks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">HTML</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CSS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">JavaScript</a>
+          </li>
+        </ul>
+        <hr class="d-sm-none">
       </div>
-    </nav>
-    <div class="accordion" id="accordionPanelsStayOpenExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-        Accordion Item #1
-        </button>
-        </h2>
-        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-          <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-        Accordion Item #2
-        </button>
-        </h2>
-        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-          <div class="accordion-body">
-            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-        Accordion Item #3
-        </button>
-        </h2>
-        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-          <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
+      <div class="col-sm-8">
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Dec 7, 2020</h5>
+        <div class="fakeimg">Fake Image</div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <h2 class="mt-5">TITLE HEADING</h2>
+        <h5>Title description, Sep 2, 2020</h5>
+        <div class="fakeimg">Fake Image</div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
       </div>
     </div>
-
-
-
-    <script src="package/bt/js/bootstrap.bundle.min.js" type="text/javascript" charset="utf-8"></script>
-  </body>
+  </div>
+  <div class="mt-5 p-4 bg-dark text-white text-center">
+    <p>Footer</p>
+  </div>
+  <script src="package/bt/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
